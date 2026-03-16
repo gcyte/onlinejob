@@ -112,7 +112,7 @@ export function Footer() {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mb-14">
                     {/* Brand */}
                     <div className="col-span-2 md:col-span-1">
-                        <Link href="/" className="inline-flex items-center gap-2 mb-6 group">
+                        <Link href="/" className="inline-flex items-center mb-6 group">
                             <span className="text-xl font-black text-white tracking-tight">
                                 Online<span className="text-blue-500">Jobs</span>
                             </span>

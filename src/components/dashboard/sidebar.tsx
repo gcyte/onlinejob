@@ -45,7 +45,7 @@ export default function Sidebar() {
             <div className="absolute right-0 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-gray-200 to-transparent opacity-50" />
 
             <div className="p-8 pb-4">
-                <Link href="/" className="flex items-center gap-2 group">
+                <Link href="/" className="flex items-center group">
                     <span className="text-lg font-black text-gray-900 tracking-tight">
                         Online<span className="text-blue-600">Jobs</span>
                     </span>

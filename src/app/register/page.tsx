@@ -70,7 +70,7 @@ export default function RegisterPage() {
                 </div>
 
                 <div className="relative z-10">
-                    <Link href="/" className="flex items-center gap-2">
+                    <Link href="/" className="flex items-center">
                         <span className="text-xl font-black text-white tracking-tight">
                             Online<span className="text-blue-400">Jobs</span>
                         </span>
@@ -110,7 +110,7 @@ export default function RegisterPage() {
             <div className="flex-1 flex flex-col justify-center px-6 py-12 sm:px-12 lg:px-16 xl:px-24 bg-gray-50 overflow-y-auto">
                 {/* Mobile logo */}
                 <div className="lg:hidden mb-10">
-                    <Link href="/" className="flex items-center gap-2">
+                    <Link href="/" className="flex items-center">
                         <span className="text-lg font-black text-gray-900">
                             Online<span className="text-blue-600">Jobs</span>
                         </span>
@@ -184,7 +184,7 @@ export default function RegisterPage() {
                                     required
                                     autoComplete="name"
                                     className="input-field !pl-11"
-                                    placeholder="Juan dela Cruz"
+                                    placeholder="Jane Smith"
                                 />
                             </div>
                         </div>

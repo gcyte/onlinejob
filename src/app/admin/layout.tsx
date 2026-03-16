@@ -53,10 +53,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
     const SidebarContent = () => (
         <div className="flex flex-col h-full">
             {/* Logo / Brand */}
-            <div className="flex items-center gap-3 px-6 py-6 border-b border-gray-100">
-                <div className="w-9 h-9 rounded-xl bg-blue-600 flex items-center justify-center shadow-md shadow-blue-200">
-                    <ShieldAlert size={18} className="text-white" />
-                </div>
+            <div className="flex items-center px-6 py-6 border-b border-gray-100">
                 <div>
                     <p className="text-sm font-black text-gray-900">Admin Panel</p>
                     <p className="text-[10px] text-gray-400 font-bold uppercase tracking-wider">Online<span className="text-blue-600">Jobs</span></p>

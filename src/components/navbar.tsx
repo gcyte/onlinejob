@@ -95,7 +95,7 @@ export default function Navbar() {
                     <div className="flex justify-between h-[68px] items-center">
 
                         {/* Logo */}
-                        <Link href="/" className="flex items-center gap-2 group flex-shrink-0">
+                        <Link href="/" className="flex items-center group flex-shrink-0">
                             <span className="text-[22px] font-black text-gray-900 tracking-tight">
                                 Online<span className="text-blue-600">Jobs</span>
                             </span>
